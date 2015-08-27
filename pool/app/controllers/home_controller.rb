@@ -174,6 +174,10 @@ class HomeController < ApplicationController
       @cap = 69_000_000
       @poolers = ['Couv', 'Ben', 'Alain', 'Mark', 'Math A']
       @max_to_draft = 20
+    when '2015-2016'
+      @cap = 71_400_000
+      @poolers = ['Math A', 'Ben', 'Mark', 'Couv', 'Alain', 'Croto', 'Math X']
+      @max_to_draft = 20
     end
     
     @total_players = Player.where('season = ?', @year).count
