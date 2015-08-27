@@ -1,0 +1,59 @@
+        <a href="/teams/ANA?year=2016" class="team"><img alt="Anaheim Ducks" src="/images/teams/ANA.jpg?1430936905" /></a>
+        
+        <a href="/teams/ARI?year=2016" class="team"><img alt="Arizona Coyotes" src="/images/teams/ARI.jpg?1430936905" /></a>
+      
+        <a href="/teams/BOS?year=2016" class="team"><img alt="Boston Bruins" src="/images/teams/BOS.jpg?1430936905" /></a>
+      
+        <a href="/teams/BUF?year=2016" class="team"><img alt="Buffalo Sabres" src="/images/teams/BUF.jpg?1430936905" /></a>
+      
+        <a href="/teams/CGY?year=2016" class="team"><img alt="Calgary Flames" src="/images/teams/CGY.jpg?1430936905" /></a>
+      
+        <a href="/teams/CAR?year=2016" class="team"><img alt="Carolina Hurricanes" src="/images/teams/CAR.jpg?1430936905" /></a>
+      
+        <a href="/teams/CHI?year=2016" class="team"><img alt="Chicago Blackhawks" src="/images/teams/CHI.jpg?1430936905" /></a>
+      
+        <a href="/teams/COL?year=2016" class="team"><img alt="Colorado Avalanche" src="/images/teams/COL.jpg?1430936905" /></a>
+      
+        <a href="/teams/CLB?year=2016" class="team"><img alt="Columbus Blue Jackets" src="/images/teams/CLB.jpg?1430936905" /></a>
+      
+        <a href="/teams/DAL?year=2016" class="team"><img alt="Dallas Stars" src="/images/teams/DAL.jpg?1430936905" /></a>
+      
+        <a href="/teams/DET?year=2016" class="team"><img alt="Detroit Red Wings" src="/images/teams/DET.jpg?1430936905" /></a>
+      
+        <a href="/teams/EDM?year=2016" class="team"><img alt="Edmonton Oilers" src="/images/teams/EDM.jpg?1430936905" /></a>
+      
+        <a href="/teams/FLA?year=2016" class="team"><img alt="Florida Panthers" src="/images/teams/FLA.jpg?1430936905" /></a>
+      
+        <a href="/teams/LAK?year=2016" class="team"><img alt="Los Angeles Kings" src="/images/teams/LAK.jpg?1430936905" /></a>
+      
+        <a href="/teams/MIN?year=2016" class="team"><img alt="Minnesota Wild" src="/images/teams/MIN.jpg?1430936905" /></a>
+      
+        <a href="/teams/MTL?year=2016" class="team"><img alt="Montreal Canadiens" src="/images/teams/MTL.jpg?1430936905" /></a>
+      
+        <a href="/teams/NAS?year=2016" class="team"><img alt="Nashville Predators" src="/images/teams/NAS.jpg?1430936905" /></a>
+      
+        <a href="/teams/NJD?year=2016" class="team"><img alt="New Jersey Devils" src="/images/teams/NJD.jpg?1430936905" /></a>
+      
+        <a href="/teams/NYI?year=2016" class="team"><img alt="New York Islanders" src="/images/teams/NYI.jpg?1430936905" /></a>
+      
+        <a href="/teams/NYR?year=2016" class="team"><img alt="New York Rangers" src="/images/teams/NYR.jpg?1430936905" /></a>
+      
+        <a href="/teams/OTT?year=2016" class="team"><img alt="Ottawa Senators" src="/images/teams/OTT.jpg?1430936905" /></a>
+      
+        <a href="/teams/PHI?year=2016" class="team"><img alt="Philadelphia Flyers" src="/images/teams/PHI.jpg?1430936905" /></a>
+      
+        <a href="/teams/PIT?year=2016" class="team"><img alt="Pittsburgh Penguins" src="/images/teams/PIT.jpg?1430936905" /></a>
+      
+        <a href="/teams/SJS?year=2016" class="team"><img alt="San Jose Sharks" src="/images/teams/SJS.jpg?1430936905" /></a>
+      
+        <a href="/teams/STL?year=2016" class="team"><img alt="St. Louis Blues" src="/images/teams/STL.jpg?1430936905" /></a>
+      
+        <a href="/teams/TBL?year=2016" class="team"><img alt="Tampa Bay Lightning" src="/images/teams/TBL.jpg?1430936905" /></a>
+      
+        <a href="/teams/TOR?year=2016" class="team"><img alt="Toronto Maple Leafs" src="/images/teams/TOR.jpg?1430936905" /></a>
+      
+        <a href="/teams/VAN?year=2016" class="team"><img alt="Vancouver Canucks" src="/images/teams/VAN.jpg?1430936905" /></a>
+      
+        <a href="/teams/WAS?year=2016" class="team"><img alt="Washington Capitals" src="/images/teams/WAS.jpg?1430936905" /></a>
+      
+        <a href="/teams/WPG?year=2016" class="team"><img alt="Winnipeg Jets" src="/images/teams/WPG.jpg?1430936905" /></a>
