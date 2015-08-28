@@ -10,12 +10,15 @@ teams = %W{ANA ARI BOS BUF CGY CAR CHI COL CLB DAL DET EDM FLA LAK MIN MTL NAS N
 #teams = %W{ANA}
 
 teams.each do |team|
-  puts "--------#{team}---------"
+  #puts "--------#{team}---------"
 	html = Nokogiri::HTML(File.open(File.expand_path("get/nn_#{team}.html")))
 
   players = []
   html.css('a[class = "active"]').each do |player|
     name = /(?<last>[A-Za-z\-]*),.(?<first>[A-Za-z\-]*)/.match(player.text)
+    unless name
+      name = /(?<first>[A-Za-z\-]*) (?<last>[A-Za-z\-]*)/.match(player.text)
+    end
     name2 =  "#{name['first']} #{name['last']}"
     players.push(name2)
   end
@@ -29,7 +32,6 @@ teams.each do |team|
   players.zip(salaries2).each do |name, salary|
     puts "#{name};#{salary};#{team}"
   end
-  
   
 end
 

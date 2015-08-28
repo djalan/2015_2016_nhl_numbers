@@ -31,7 +31,7 @@ def go
       p.rank = l[13]
       p.drafted = 'no'
       p.color = 'white'
-      p.season = '2014-2015'
+      p.season = '2015-2016'
 
       printf("%-25s %s\n", p.name, p.valid?) unless p.valid?
       p.save
