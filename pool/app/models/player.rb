@@ -19,14 +19,15 @@ class Player < ActiveRecord::Base
   format: { with: /D|C|L|R|G/i, message: 'must be D C L R G' }
 
   validates :power_play, :pp_last_year,
-  allow_blank: true, format: { with: /F1|F2|F3|F4|F5|F6|D1|D2|D3|M/i, message: 'must be F1 F2 F3 F4 F5 F6 D1 D2 D3 M' }
+  allow_blank: true, format: { with: /F1|F2|F3|F4|F5|F6|D1|D2|D3|M/, message: 'must be F1 F2 F3 F4 F5 F6 D1 D2 D3 M' }
     
   #validates :color, inclusion: COLORS
     
   validates :drafted,
   inclusion: POOLERS
     
-
+  validates :my_rank_global,
+  numericality: {greater_than_or_equal_to: 1}
 
   #validate :points_equal_sum_goals_assists, :nhl_points_equal_sum_nhl_goals_nhl_assists
 
