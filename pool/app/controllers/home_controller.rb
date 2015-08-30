@@ -128,6 +128,15 @@ class HomeController < ApplicationController
     @list = Player.where('rank != "nil"').order('rank ASC')
   end
   
+  def team
+    session[:return_to] = request.fullpath
+  end
+  
+  def team_roster
+    session[:return_to] = request.fullpath
+    @players = Player.where('drafted = "no" AND team = ? AND season = ?', params[:q], @year).order('points DESC')
+  end
+  
   def edit_rank
   end
   
@@ -147,10 +156,6 @@ class HomeController < ApplicationController
   # GET home/pp
   def pp
     session[:return_to] = request.fullpath
-    @teams = ['Avalanche', 'Blackhawks', 'Bluejackets', 'Blues', 'Bruins', 'Canadiens', \
-      'Canucks', 'Capitals', 'Coyotes', 'Devils', 'Ducks', 'Flames', 'Flyers', 'Hurricanes', \
-      'Islanders', 'Jets', 'Kings', 'Lightning', 'Mapleleafs', 'Oilers', 'Panthers', 'Penguins', \
-      'Predators', 'Rangers', 'Redwings', 'Sabres', 'Senators', 'Sharks', 'Stars', 'Wild']
   end
   
   

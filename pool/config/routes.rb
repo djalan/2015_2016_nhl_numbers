@@ -7,6 +7,8 @@ Pool::Application.routes.draw do
     get "home/pp"
     get 'home/i'
     get 'home/test'
+    get 'home/team'
+    get 'home/team_roster'
     
     get   'home/all'
     post  'home/all'
