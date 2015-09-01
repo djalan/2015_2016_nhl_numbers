@@ -42,6 +42,7 @@ gem 'yaml_db', github: 'jetthoughts/yaml_db'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
+gem 'capistrano', '~> 3.4.0'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]

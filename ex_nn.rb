@@ -10,7 +10,7 @@ teams = %W{ANA ARI BOS BUF CGY CAR CHI COL CLB DAL DET EDM FLA LAK MIN MTL NAS N
 #teams = %W{TBL}
 
 teams.each do |team|
-  puts "--------#{team}---------"
+  #puts "--------#{team}---------"
 	html = Nokogiri::HTML(File.open(File.expand_path("get/nn_#{team}.html")))
   
   go = false

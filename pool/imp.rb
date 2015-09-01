@@ -10,7 +10,7 @@ require 'fileutils'
 # 38;P.K. Subban;Canadiens;MTL;D;42;11;27;38;33;54;87;2875000;2
 
 def go
-  File.open(File.expand_path('nhl2014-2015.csv')) do |file|
+  File.open(File.expand_path('goalers_from_2014_2015.csv')) do |file|
     file.each_line do |line|
       l = line.split(';')
       p = Player.new
