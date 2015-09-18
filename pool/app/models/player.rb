@@ -43,6 +43,12 @@ class Player < ActiveRecord::Base
   def nhl_points_equal_sum_nhl_goals_nhl_assists
     errors.add(:nhl_points, "total of nhl_points different than sum of nhl_goals + nhl_assists") unless self.nhl_points != (self.nhl_goals + self.nhl_assists)
   end
+  
+  def pp_already
+    if 1
+      errors.add(:power_play, "pp rank already picked for this team")
+    end
+  end
 
 
 end
