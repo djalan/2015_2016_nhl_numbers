@@ -1,9 +1,12 @@
 <div id='powerplay'>
 <h1>Power Play</h1>
 <br>
+<% @teams.each do |team| %>
+	<%= link_to team, home_pp_path(:anchor => team) %>
+<% end %>
 <br>
 <% @teams.each do |team| %>
-		<h2><%= team %></h2>
+		<h2><a name="<%= team %>"><%= team %></a></h2>
 		<table>
 			<tr>
 				<th>F1</th>
